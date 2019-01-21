@@ -15,6 +15,7 @@ public class growArms : MonoBehaviour {
          newArm = (GameObject)Instantiate(anArm, transform.position, Quaternion.Euler((float)0.0, Random.Range((float)0.0, (float)360.0), (float)0.0));
             newArms.AddFirst(newArm);
              }
+        
     }
 	
 	// Update is called once per frame
